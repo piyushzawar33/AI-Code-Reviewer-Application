@@ -1,7 +1,7 @@
 import streamlit as st
 import google.generativeai as genai
 
-f = open(r"C:\Users\piyus\OneDrive\Desktop\Internship\Gemini\Key\Gemini key.txt")
+f = open(r"C:\Users\piyus\OneDrive\Desktop\1\Gemini key.txt")
 key = f.read()
 
 genai.configure(api_key = key)
